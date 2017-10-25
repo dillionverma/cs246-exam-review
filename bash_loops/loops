@@ -1,0 +1,23 @@
+#!/bin/bash
+
+args="a1 a2 a3 a4 a5"
+i=1
+
+printArgs1() {
+  while [ ${i} -le ${#} ]; do
+    eval echo "\${${i}}"
+    i=$(( ${i} + 1 ))
+  done
+}
+
+printArgs2() {
+  for arg in "${@}"; do
+    echo "${arg}"
+  done
+}
+
+echo "while loop"
+printArgs1 ${args}
+
+echo "for loop"
+printArgs2 ${args}
