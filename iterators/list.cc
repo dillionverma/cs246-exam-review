@@ -49,20 +49,25 @@ int main() {
   cout << l.ith(2) << endl;
    
   cout << "---" << endl;
-
   for(List::Iterator it = l.begin(); it != l.end(); ++it) {
     cout << *it << endl;
   }
 
   cout << "---" << endl;
-
   for(auto it = l.begin(); it != l.end(); ++it) {
     cout << *it << endl;
   }
 
   cout << "---" << endl;
-  for(auto i:l) {
+  for(const auto i:l) {
     cout << i << endl;
   }
+
+  cout << "---" << endl;
+  for(auto &i:l) {
+    i++;      // mutate the values because it is a reference
+    cout << i << endl;
+  }
+
   return 0;
 }
