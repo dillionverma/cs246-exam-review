@@ -11,7 +11,13 @@ printArgs1() {
 }
 
 printArgs2() {
-  for arg in "${@}"; do
+  for arg in "${@}"; do  # ${@} is separate strings
+    echo "${arg}"
+  done
+}
+
+printArgs3() {
+  for arg in ${*}; do  # ${*} is single string
     echo "${arg}"
   done
 }
@@ -21,3 +27,6 @@ printArgs1 ${args}
 
 echo "for loop"
 printArgs2 ${args}
+
+echo "for loop v2"
+printArgs3 ${args}
