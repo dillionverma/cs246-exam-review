@@ -1,0 +1,17 @@
+#!/bin/bash
+
+usage() {
+  echo "Usage: ${0} -test 14" 1>&2
+  exit 1
+}
+
+if [[ $1 != "-test" && $2 -ne 14 ]]; then
+  usage
+fi
+
+
+echo ${#}            # number of cmdline arguments
+echo ${0} ${1} ${2}  # all arguments
+echo "${*}"          # all arguments as single string
+echo "${@}"          # all arguments as separate strings
+echo ${$}            # process id of script
