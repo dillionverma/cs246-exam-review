@@ -19,19 +19,13 @@ int main() {
 
   // int declared on stack
   int n = 5;
-  cout << n << endl;
-  addOneByRef(n);
-  addOneByPtr(&n);
-  cout << n << endl;
-
-  cout << "---" << endl;
+  addOneByRef(n);       // 6
+  addOneByPtr(&n);      // 7
 
   // int declared on heap
   int *b = new int(10);
-  cout << *b << endl;
-  addOneByRef(*b);
-  addOneByPtr(b);
-  cout << *b << endl;
+  addOneByRef(*b);      // 11
+  addOneByPtr(b);       // 12
 
   delete b;
 }
