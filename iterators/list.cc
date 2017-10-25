@@ -15,9 +15,9 @@ class List {
   public:
     class Iterator{
       Node *p;
+      Iterator(Node *p):p{p}{}
       public:
-        friend class list;
-        Iterator(Node *p):p{p}{}
+        friend class List;
         int &operator*() { return p->data;}
         Iterator &operator++() { p = p->next; return *this; }
         bool operator!=(const Iterator &other) const { return p!= other.p; }
