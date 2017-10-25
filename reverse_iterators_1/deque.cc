@@ -56,35 +56,13 @@ int main() {
   l.addToFront(1).addToFront(2).addToFront(3);
   l.addToFront(4);
   l.addToFront(5);
-
-  cout << l.ith(0) << endl;
-  cout << l.ith(1) << endl;
-  cout << l.ith(2) << endl;
-  cout << l.ith(3) << endl;
-  cout << l.ith(4) << endl;
-   
+ 
   cout << "--- List::Iterator ---" << endl;
-  for(List::Iterator it = l.begin(); it != l.end(); ++it) {
-    cout << *it << endl;
-  }
-
-  cout << "--- auto ---" << endl;
   for(auto it = l.begin(); it != l.end(); ++it) {
     cout << *it << endl;
   }
 
-  cout << "--- const auto ---" << endl;
-  for(const auto i:l) {
-    cout << i << endl;
-  }
-
-  cout << "--- auto &i:l ---" << endl;
-  for(auto &i:l) {
-    i++;      // mutate the values because it is a reference
-    cout << i << endl;
-  }
-
-  cout << "--- reverse iterator ---" << endl;
+  cout << "--- Reverse Iterator using --it ---" << endl;
   for(auto it = l.rend(); it != l.rbegin(); --it) {
     cout << *it << endl;
   }
