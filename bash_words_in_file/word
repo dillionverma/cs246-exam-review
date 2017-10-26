@@ -1,0 +1,20 @@
+#!/bin/bash
+
+i=0
+
+usage() {
+  echo "Usage: ${0} \"my_word\" myfile.txt" >&2
+  exit 1
+}
+
+if [ ${#} -ne 2 ]; then
+  usage
+fi
+
+for word in `cat "${2}"`; do
+  if [ "${word}" = "${1}" ]; then
+    i=$(( ${i} + 1))
+  fi
+done
+
+echo "There are ${i} occurences of \"${1}\" in ${2}."
