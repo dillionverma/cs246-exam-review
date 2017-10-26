@@ -49,13 +49,12 @@ Node &Node::operator=(const Node &other){
   delete next;
 
   data = other.data;
-  next = other.next ? next = new Node(*other.next) : nullptr;
+  next = other.next ? new Node(*other.next) : nullptr;
   return *this;
 }
 
 Node &Node::operator=(Node &&other) {
   cout << "Move assignment called" << endl;
-  if (this == &other) return *this;
   swap(data, other.data);
   swap(next, other.next);
   return *this;
