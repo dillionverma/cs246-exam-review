@@ -6,9 +6,8 @@ This repo was created to collect and share important c++ and bash code snippets 
 
 ## Study Topics
 
-#### Bash
+#### Unit 1: Bash
 
- * Unit 1: Bash
  * basic commands: echo, cat, ls, using variables, etc.
  * stream redirection
  * globbing patterns: *
@@ -18,9 +17,8 @@ This repo was created to collect and share important c++ and bash code snippets 
  * Scripting syntax (variables, conditionals, loops, functions)
  * Testing - human, machine (white, black), performance, regression
  
-#### C++ Intro
+#### Unit 2: Intro to C++
 
- * Unit 2: Intro to C++
  * hello world
  * using command line arguments and exit codes
  * I/O with cin, cout, cerr, using getline
@@ -35,7 +33,7 @@ This repo was created to collect and share important c++ and bash code snippets 
  * Valgrind 
  * Makefile 
 
-#### C++ / Intro to OOP
+#### Unit 3: C++ / Intro to OOP
 
  * Preprocessor directives (variables, conditions, defining variables when compiling)
  * Separate compilation and include guards
