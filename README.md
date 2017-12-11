@@ -73,6 +73,10 @@ This repo was created to collect and share important c++ and bash code snippets 
    * Template Method Pattern
    * Visitor Pattern
    * Bridge Pattern
+ * Idioms
+   * RAII
+   * NVI
+   * pImpl
  * Templates (nothing to do with design pattern of same name!!)
  * Template keyword
  * Standard Template Library
