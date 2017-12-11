@@ -1,13 +1,13 @@
-//-------------------- ALL CASES WHICH YOU CAN FORWARD DECLARE --------------------
+//-------------------- ALL CASES WHERE YOU CAN FORWARD DECLARE --------------------
 
 class X;             // Forward Declaration
 class Foo {
   X *x;              // pointer to type
   X &y;              // reference to type
   void f(X x);       // function declaration type argument
+  X i();             // function declaration return type
   void g(X *x){}     // function definition with pointer type argument
   void h(X &x){}     // function definition with pointer type argument
-  X i();             // function declaration return type
   X* j(){};          // function definition return pointer to type
   X& k(){};          // function definition return reference to type
 };
