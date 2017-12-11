@@ -77,6 +77,7 @@ This repo was created to collect and share important c++ and bash code snippets 
    * RAII
    * NVI
    * pImpl
+ * Compilation dependencies
  * Templates (nothing to do with design pattern of same name!!)
  * Template keyword
  * Standard Template Library
