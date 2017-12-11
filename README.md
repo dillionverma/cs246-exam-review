@@ -73,6 +73,11 @@ This repo was created to collect and share important c++ and bash code snippets 
    * Template Method Pattern
    * Visitor Pattern
    * Bridge Pattern
+ * Idioms
+   * RAII
+   * NVI
+   * pImpl
+ * Compilation dependencies
  * Templates (nothing to do with design pattern of same name!!)
  * Template keyword
  * Standard Template Library
@@ -108,3 +113,8 @@ This repo was created to collect and share important c++ and bash code snippets 
     chmod u+x file_name     # give executable permissions on file for current user
     ./file_name
     ```
+
+
+## Credits
+
+A big thank you to my Professor __Brad Lushman__ for dedicating his time to teaching this amazing course and also for slipping funny jokes while teaching to make lectures more enjoyable.
