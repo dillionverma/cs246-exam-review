@@ -51,8 +51,46 @@ This repo was created to collect and share important c++ and bash code snippets 
  * Visibility (public vs private), class keyword vs struct keyword, and encapsulation
  * Design patterns (Intro)
  * Iterators (why we need them, auto type, range based loops)
- 
 
+#### Unit 4: Inheritance, Design Patterns, casting etc
+
+ * Inheritance
+ * 3 Access Levels and why each one is used/important
+ * Dynamic Dispatch/Polymorphism
+ * Virtual Methods vs Pure Virtual Methods
+ * Abstract classes
+ * Concrete classes
+ * Partial assignment/Mixed Assignment
+ * UML
+   * Fields
+   * Public/Protected Methods (ideally NOT getters/setters)
+   * Has-A
+   * Owns-A
+ * Design Patterns
+   * Observer Pattern
+   * Decorator Pattern
+   * Factory Method Pattern
+   * Template Method Pattern
+   * Visitor Pattern
+   * Bridge Pattern
+ * Templates (nothing to do with design pattern of same name!!)
+ * Template keyword
+ * Standard Template Library
+   * Vector (dynamic length array)
+   * Vector Iterator/Reverse_iterator
+   * Common vector functions
+   * Map (unordered dictionary)
+   * Common map functions
+   * Iterate through map
+ * Casting
+   * Static_cast
+   * Dynamic_cast
+   * Reinterpret_cast
+   * Const_cast
+ * lambda functions
+ * exception safety, throw, catch
+ * vtables and virtual inheritance
+ 
 ## Installation
 
 1. Head over to any directory on your computer and clone the repository:
