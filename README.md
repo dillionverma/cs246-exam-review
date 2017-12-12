@@ -100,6 +100,8 @@ This repo was created to collect and share important c++ and bash code snippets 
  * public
  * protected
  * private
+ * friend
+ * noexcept
  * final
  * explicit
  * extern
