@@ -30,4 +30,10 @@ class Set {
 //   since both iterators inherit from abstract iterator
 
 
-
+//   e.g. This would work for both lists and sets
+void for_each(AbstractIterator &start, AbstractIterator &end, void(*f)(int)){
+    while(start != end){
+        f(*start);
+        ++start;
+    }
+}
