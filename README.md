@@ -60,8 +60,8 @@ This repo was created to collect and share important c++ and bash code snippets 
  * Virtual Methods vs Pure Virtual Methods
  * Abstract classes
  * Concrete classes
- * Partial assignment/Mixed Assignment
- * UML
+ * Partial assignment/Mixed Assignment/Polymorphic Assignmnent
+ * [UML](https://www.youtube.com/watch?v=UI6lqHOVHic)
    * Fields
    * Public/Protected Methods (ideally NOT getters/setters)
    * Has-A
@@ -94,8 +94,19 @@ This repo was created to collect and share important c++ and bash code snippets 
    * Const_cast
  * lambda functions
  * exception safety, throw, catch
- * vtables and virtual inheritance
+ * [vtables and virtual inheritance](https://www.youtube.com/watch?v=Eaz0P_gJ9FE)
  
+## Key words to know
+ * public
+ * protected
+ * private
+ * final
+ * explicit
+ * extern
+ * auto
+ * typename
+ * template
+
 ## Installation
 
 1. Head over to any directory on your computer and clone the repository:
