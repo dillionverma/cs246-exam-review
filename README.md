@@ -108,6 +108,7 @@ This repo was created to collect and share important c++ and bash code snippets 
  * auto
  * typename
  * template
+ * typedef
 
 ## Installation
 
