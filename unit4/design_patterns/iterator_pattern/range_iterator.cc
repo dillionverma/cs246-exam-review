@@ -18,8 +18,6 @@ class Range {
 
     Iterator begin() { return Iterator(start);  }
     Iterator end()   { return Iterator(finish); }
-
-    ~Range(){};
 };
 
 
