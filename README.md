@@ -67,12 +67,13 @@ This repo was created to collect and share important c++ and bash code snippets 
    * Has-A
    * Owns-A
  * Design Patterns
-   * [Observer Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/observer_pattern)
-   * [Decorator Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/decorator_pattern)
-   * [Factory Method Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/factory_pattern)
-   * [Template Method Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/template_pattern)
+   * [Observer Pattern](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/design_patterns/observer_pattern/observer_pattern.cc)
+   * [Decorator Pattern](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/design_patterns/decorator_pattern/decorator_pattern.cc)
+   * [Factory Method Pattern](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/design_patterns/factory_pattern/factory_pattern.cc)
+   * [Template Method Pattern](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/design_patterns/template_pattern/template_pattern.cc)
    * [Visitor Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/vistor_pattern)
-   * [Bridge Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/bridge_pattern)
+   * [Bridge Pattern](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/design_patterns/bridge_pattern/bridge_pattern.cc)
+   * [Iterator Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/iterator_pattern)
  * Idioms
    * RAII
    * NVI
