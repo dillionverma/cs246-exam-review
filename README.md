@@ -46,11 +46,11 @@ This repo was created to collect and share important c++ and bash code snippets 
  * copy & swap idiom
  * Destructors and object destruction steps
  * Move constructor and move assignment operator (differences between move and copy)
- * Big 5 (why they're a package, writing them with separation compilation, copy vs move)
+ * [Big 5](https://github.com/dillionverma/cs246-exam-review/blob/master/unit3/big5/node.cc) (why they're a package, writing them with separation compilation, copy vs move)
  * Copy/move elision
  * Visibility (public vs private), class keyword vs struct keyword, and encapsulation
  * Design patterns (Intro)
- * Iterators (why we need them, auto type, range based loops)
+ * [Iterators](https://github.com/dillionverma/cs246-exam-review/blob/master/unit3/iterators/list.cc) (why we need them, auto type, range based loops)
 
 #### Unit 4: Inheritance, Design Patterns, casting etc
 
@@ -67,20 +67,20 @@ This repo was created to collect and share important c++ and bash code snippets 
    * Has-A
    * Owns-A
  * Design Patterns
-   * Observer Pattern
-   * Decorator Pattern
-   * Factory Method Pattern
-   * Template Method Pattern
-   * Visitor Pattern
-   * Bridge Pattern
+   * [Observer Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/observer_pattern)
+   * [Decorator Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/decorator_pattern)
+   * [Factory Method Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/factory_pattern)
+   * [Template Method Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/template_pattern)
+   * [Visitor Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/vistor_pattern)
+   * [Bridge Pattern](https://github.com/dillionverma/cs246-exam-review/tree/master/unit4/design_patterns/bridge_pattern)
  * Idioms
    * RAII
    * NVI
    * pImpl
    * copy and swap
- * Compilation dependencies
- * Templates (nothing to do with design pattern of same name!!)
- * Template keyword
+ * [Compilation dependencies](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/compilation_dependencies/compilation.h)
+ * [Templates](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/templates/templates.cc) (nothing to do with design pattern of same name!!)
+ * [Template keyword](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/templates/templates.cc)
  * Standard Template Library
    * Vector (dynamic length array)
    * Vector Iterator/Reverse_iterator
@@ -88,13 +88,13 @@ This repo was created to collect and share important c++ and bash code snippets 
    * Map (unordered dictionary)
    * Common map functions
    * Iterate through map
- * Casting
-   * Static_cast
-   * Dynamic_cast
-   * Reinterpret_cast
-   * Const_cast
+ * [Casting](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/casting/casting.cc)
+   * [Static_cast](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/casting/casting.cc#L15-L21)
+   * [Dynamic_cast](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/casting/casting.cc#L36-L42)
+   * [Reinterpret_cast](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/casting/casting.cc#L23-L27)
+   * [Const_cast](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/casting/casting.cc#L29-L34)
  * lambda functions
- * exception safety, throw, catch
+ * [exception safety, throw, catch](https://github.com/dillionverma/cs246-exam-review/blob/master/unit4/try_catch/try_catch.cc)
  * [vtables and virtual inheritance](https://www.youtube.com/watch?v=Eaz0P_gJ9FE)
  
 ## Key words to know
